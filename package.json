@@ -1,0 +1,24 @@
+{
+  "name": "i-weigh-the-same-as",
+  "version": "1.0.0",
+  "description": "A simple and fun game comparing the user's weight to other animals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matty1515/i-weigh-as-much-as.git"
+  },
+  "author": "Matty1515",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matty1515/i-weigh-as-much-as/issues"
+  },
+  "homepage": "https://github.com/Matty1515/i-weigh-as-much-as#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-webserver": "^0.9.1"
+  }
+}

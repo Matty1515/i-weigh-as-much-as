@@ -1,0 +1,50 @@
+/* 
+	=====Stylesheet Order=====
+	
+	1. Global Styles 
+	2. Navbar
+	3. Jumbotron
+	4. Text Divs
+	5. Input/Output Card
+	6. Footer
+	
+	=====Colour Scheme=====
+	
+	Background - background-color: #a7e2b3;
+	Text - color: #551a49;
+	
+	=====Fonts=====
+	
+	Header - font-family: 'Amatic SC', cursive;
+	Body - font-family: 'Josefin Sans', sans-serif;
+*/
+/*	Global Styles */
+* {
+  box-sizing: border-box; }
+
+p, li, a, i, b, button {
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif; }
+
+#main-div h1 {
+  font-size: 60px;
+  font-family: 'Amatic SC', cursive; }
+
+/*	Navbar */
+/*	Jumbotron */
+#background-div {
+  height: 100vh;
+  background-color: #a7e2b3;
+  color: #551a49; }
+
+/*	Text Divs */
+#main-div {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 500px; }
+
+/*	Input/Output Card */
+/*	Footer */
