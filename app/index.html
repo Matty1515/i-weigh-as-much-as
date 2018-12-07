@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Meta -->
+	<title>Biomass App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+<!-- External frameworks & files -->
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Sans" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="css/styles.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src='js/scripts.js'></script>
+</head>
+<body>
+
+<!-- Here's the idea:
+	*Bottom layer of the background is a moving generic polymorphic graphic
+	*Layer two is an image of the animal object that has been selected
+	*Layer three is a translucent block colour layer that changes colour at random (or depending the animal selected if you want) - $("#main-div").css("background-color", "yellow");
+	*The top is layer is the text
+-->
+
+<div id="background-div">
+	<div id="header-div">
+		<nav class="navbar">
+			<ul>
+				<li>Biomass App</li>
+			</ul>
+		</nav>
+	</div>
+	
+	<div id="main-div">
+		<h1>Biomass App</h1>
+		<p id="textOutput">Input your weight below:</p>
+		<input id="weightField" type="number" maxlength="15"></input>
+		<button id="nextButton" type="button">Next</button>
+	</div>
+	
+	<div id="footer-div">
+		<footer class="page-footer fixed-bottom" id="javascriptFooter">
+			<div class="container text-center">
+				<!-- Simple getElementById test to see if JavaScript has stopped working-->
+				<p id="testTitle">JavaScript isn't working...<p>
+			</div>
+		</footer>
+	</div>
+</div>
+</body>
+</html>
